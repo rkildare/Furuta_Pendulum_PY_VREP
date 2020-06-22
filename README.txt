@@ -1,5 +1,5 @@
 -This is a rotary inverted pendulum simulated in vrep and is currently held semi-stable by a PI controller written in python.
--Communication occurs through vreps python API
+-Communication occurs through VREP's python API
 -Joint two (pendulum base) is treated as a rotary encoder and the controller can only see its position at any given time.
 -Joint one is treated as a DC motor, in which the controller sets target velocities in order to achieve desired results.
 
